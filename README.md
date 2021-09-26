@@ -36,3 +36,7 @@ framework over state-of-the-art approaches through extensive empirical studies
 2. Major supervised Learning methods for allocation policy are not ideal because changes in an allocation policy will impact future demand-supply, and it is hard for supervised learning approaches to capture and model these real-time changes.
 
 3. Recent years witnessed tremendous success in deep reinforcement learning (DRL) in modeling intellectual challenging decision-making problems [9], [10], that were previously intractable. In the light of such advances, in this paper we propose a novel DRL approach to learn highly efficient allocation policies for fleet management.
+
+4. The goal of the management is to maximize the gross merchandise volume (GMV: the value of all the orders served) of the platform by repositioning available vehicles to the locations with larger demand-supply gap than the current one. 
+
+5. Using DNN + Q-Learning
